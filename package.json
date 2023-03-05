@@ -1,0 +1,22 @@
+{
+  "name": "seo-cache-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^112.0.0",
+    "nodemon": "^2.0.20",
+    "redis": "^4.6.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
